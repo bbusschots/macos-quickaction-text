@@ -43,10 +43,10 @@ Each quick action is included as a ZIP file in this repository's `Services` fold
 
 The Quick Actions that alter or measure selected text can be accessed by right-clicking on a text selection in any app and expanding the *Services* menu.
 
-![Screenshot showing Quick Actions in right-click menu on text selection](./screenshots/Services&20via%20Right%20Click%20on%20Text%20Selection.png?raw=true)
+![Screenshot showing Quick Actions in right-click menu on text selection](/screenshots/Services%20via%20Right%20Click%20on%20Text%20Selection.png?raw=true)
 
 ### Via Menu Bar
 
 The Quick Actions that alter the clipboard are primarily accessed via the *Services* sub-menu in any app's main menu (the first item in the Menu Bar after the Apple logo, i.e. the one with the same name as the app itself). If there is currently text selected within the app, then the text selection services will show in this menu too.
 
-![Screenshot showing Quick Actions in main menu](./screenshots/Services&20via%20Menu%20Bar.png?raw=true)
+![Screenshot showing Quick Actions in main menu](/screenshots/Services%20via%20Menu%20Bar.png?raw=true)
