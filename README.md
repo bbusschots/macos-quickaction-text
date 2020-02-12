@@ -1,11 +1,9 @@
 # MacOS Quick Action Text Utilities
 A collection of Mac OS Quick Actions (Services) for manipulating text.
 
-## Installation
+## Included Quick Actions
 
-Each quick action is included as a ZIP file under `Services`. Extract the ZIP file and double-click to install. Or, extract the ZIP file and copy the workflow into `~/Library/Services`.
-
-## Text Replacement Utilities
+### Text Replacement Utilities
 
 These quick actions are available when text is selected in any app. Once you have the text selected, either right-click on the selection to access the services menu, or, use the `Services` sub-menu under the app's main menu (the app's name in the menubar). The selected text will be replaced with the altered version.
 
@@ -15,7 +13,7 @@ The following services are provided:
 * **Selection to Title Case** — converts the selection to Title Case, e.g. `hello world!` → `Hello World!`
 * **Selection to Upper Case** — converts the selection to UPPER CASE, e.g. `hello world!` → `HELLO WORLD!`
 
-## Text Measurement Utilities
+### Text Measurement Utilities
 
 These quick actions are available when text is selected in any app. Once you have the text selected, either right-click on the selection to access the services menu, or, use the `Services` sub-menu under the app's main menu (the app's name in the menubar). The result of the measurement will be displayed using a MacOS Notification.
 
@@ -25,7 +23,7 @@ The following services are provided:
 * **Count Words** — generates a notification with the number of words in the selection. The service uses the terminal command `wc -w` to perform the calculation.
 * **Count Lines** — generates a notification with the number of lines in the selection. The service uses the terminal command `wc -l` to perform the calculation.
 
-## Clipboard Manipulation Utilities
+### Clipboard Manipulation Utilities
 
 These quick actions are available in any app at any time from the `Services` sub-menu under the app's main menu (the app's name in the menubar).
 
@@ -34,3 +32,21 @@ These quick actions are available in any app at any time from the `Services` sub
 * **Clipboard to UPPER CASE** — replace the contents of the clipboard with the current contents converted to a string and then converted to UPPER CASE.
 * **Clipboard to Plain Text** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string.
 * **Trim Clipboard** — replace the contents of the clipboard with the current contents converted to string with all leading and trailing white space removed.
+
+## Installation
+
+Each quick action is included as a ZIP file in this repository's `Services` folder. Extract the ZIP file and double-click to install. Or, extract the ZIP file and copy the workflow into `~/Library/Services`.
+
+## Using the Quick Actions
+
+### Via Right-Click on Text Selection
+
+The Quick Actions that alter or measure selected text can be accessed by right-clicking on a text selection in any app and expanding the *Services* menu.
+
+![Screenshot showing Quick Actions in right-click menu on text selection](./screenshots/Services&20via%20Right%20Click%20on%20Text%20Selection.png?raw=true)
+
+### Via Menu Bar
+
+The Quick Actions that alter the clipboard are primarily accessed via the *Services* sub-menu in any app's main menu (the first item in the Menu Bar after the Apple logo, i.e. the one with the same name as the app itself). If there is currently text selected within the app, then the text selection services will show in this menu too.
+
+![Screenshot showing Quick Actions in main menu](./screenshots/Services&20via%20Menu%20Bar.png?raw=true)
