@@ -50,3 +50,9 @@ The Quick Actions that alter or measure selected text can be accessed by right-c
 The Quick Actions that alter the clipboard are primarily accessed via the *Services* sub-menu in any app's main menu (the first item in the Menu Bar after the Apple logo, i.e. the one with the same name as the app itself). If there is currently text selected within the app, then the text selection services will show in this menu too.
 
 ![Screenshot showing Quick Actions in main menu](/screenshots/Services%20via%20Menu%20Bar.png?raw=true)
+
+## Assigning Shortcut Keys
+
+Assigning shortcut keys can be particularly useful for the Quick Actions that alter the clipboard contents. Shortcuts can be registered for any Quick Action via the *Shortcuts* tab in the *Keyboard* preference pane in *System Preferences*. You'll find the Quick Actions listed under *Services* in the left side-bar. With *Services* selected in the left side bar you'll find the Quick Actions that alter or measure selected text under *Text* in the primary panel, and the actions for altering the clipboard contents under *General*.
+
+![Screenshot showing the Shortcuts tab of the Keyboard System Preference Pane](/screenshots/Keyboard%20Shortcuts.png?raw=true)
