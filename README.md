@@ -31,6 +31,7 @@ These quick actions are available in any app at any time from the `Services` sub
 * **Clipboard to Title Case** — replace the contents of the clipboard with the current contents converted to a string and then converted to Title Case.
 * **Clipboard to UPPER CASE** — replace the contents of the clipboard with the current contents converted to a string and then converted to UPPER CASE.
 * **Clipboard to Plain Text** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string.
+* **Remove White Space from Clipboard** — replace the contents of the clipboard with the current contents with all white space removed, regardless of where it appears.
 * **Trim Clipboard** — replace the contents of the clipboard with the current contents converted to string with all leading and trailing white space removed.
 
 ### Other Utilities
