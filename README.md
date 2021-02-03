@@ -33,6 +33,12 @@ These quick actions are available in any app at any time from the `Services` sub
 * **Clipboard to Plain Text** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string.
 * **Trim Clipboard** — replace the contents of the clipboard with the current contents converted to string with all leading and trailing white space removed.
 
+### Other Utilities
+
+These quick actions are available in various contexts depending on the action.
+
+* **Random Line from Selection** (available on text selections) — split the text into lines, pick one at random, and store it in the clipboard. The original text is not altered in any way.
+
 ## Installation
 
 Each quick action is included as a ZIP file in this repository's `Services` folder. Extract the ZIP file and double-click to install. Or, extract the ZIP file and copy the workflow into `~/Library/Services`.
