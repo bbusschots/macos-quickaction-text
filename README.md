@@ -33,6 +33,7 @@ These quick actions are available in any app at any time from the `Services` sub
 * **Clipboard to Plain Text** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string.
 * **Remove White Space from Clipboard** — replace the contents of the clipboard with the current contents with all white space removed, regardless of where it appears.
 * **Trim Clipboard** — replace the contents of the clipboard with the current contents converted to string with all leading and trailing white space removed.
+* **Clipboard to Coma-separated Values** — replace all white space with a coma followed by a space.
 
 ### Other Utilities
 
