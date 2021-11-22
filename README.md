@@ -13,6 +13,7 @@ The following services are provided:
 * **Selection to Title Case** — converts the selection to Title Case, e.g. `hello world!` → `Hello World!`
 * **Selection to Upper Case** — converts the selection to UPPER CASE, e.g. `hello world!` → `HELLO WORLD!`
 * **Selection to Coma-separated Values** —  replace all white space with a coma followed by a space.
+* **Selection to Plain Number** — remove all characters other than digits and dots, e.g. `1,234 bytes` → `1234`.
 
 ### Text Measurement Utilities
 
@@ -32,6 +33,7 @@ These quick actions are available in any app at any time from the `Services` sub
 * **Clipboard to Title Case** — replace the contents of the clipboard with the current contents converted to a string and then converted to Title Case.
 * **Clipboard to UPPER CASE** — replace the contents of the clipboard with the current contents converted to a string and then converted to UPPER CASE.
 * **Clipboard to Plain Text** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string.
+* **Clipboard to Plain Number** — replace the contents of the clipboard with the current contents converted to an un-styled (plain text) string with everything other than digits and dots removed e.g. `1,234 bytes` → `1234`.
 * **Remove White Space from Clipboard** — replace the contents of the clipboard with the current contents with all white space removed, regardless of where it appears.
 * **Trim Clipboard** — replace the contents of the clipboard with the current contents converted to string with all leading and trailing white space removed.
 * **Clipboard to Coma-separated Values** — replace all white space with a coma followed by a space.
