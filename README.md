@@ -12,6 +12,7 @@ The following services are provided:
 * **Selection to lower case** — converts the selection to lower case, e.g. `HELLO WORLD!` → `hello world!`
 * **Selection to Title Case** — converts the selection to Title Case, e.g. `hello world!` → `Hello World!`
 * **Selection to Upper Case** — converts the selection to UPPER CASE, e.g. `hello world!` → `HELLO WORLD!`
+* **Selection to Coma-separated Values** —  replace all white space with a coma followed by a space.
 
 ### Text Measurement Utilities
 
